@@ -1,0 +1,1 @@
+Čitanje s konzole

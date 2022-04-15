@@ -27,6 +27,9 @@ public class Klasa {
 }
 ```
 
+Zanimljivo:
+U svakom programskom jeziku si možete pisati komentare, u javi se to radi tako da upišete dvije kose crve `//`. Sve iza tih crta će biti zakomentirano te time "nevidljivo" kompajleru (u prijevodu neće se izvršiti pri pokretanju programa).
+
 ## 1.2 Naredba za ispis
 Svaki Java program sadrži naredbe (eng. statements), a svaka naredba opisuje neku operaciju koju računalo treba izvršiti (ispis na zaslon, računaska operacija, provjera položaja miša na zaslonu itd.).
 
@@ -283,3 +286,88 @@ Također, koristite samo `System.out.print()` naredbu, te naglasak: taj razmak u
 Rješenje možete provjeriti ovdje.
 
 ## 1.7 Sažetak 🎯
+U Javi sve živi u `klasama`, a sav kod koji se izvršava mora se pozvati u `main` metodi.
+
+```Java
+public class Klasa {
+
+    public static void main(String[] args) {
+		// Kod se poziva ovdje
+    }
+}
+```
+
+-----
+
+Ispis u konzolu se vrši pomoću dvije naredbe pri čemu `print()` ne prelazi u novu liniju, a `println()` prelazi.
+
+```Java
+public class Klasa {
+
+    public static void main(String[] args) {
+		System.out.println("Dobar dan!");
+		System.out.println("Dovidenja!");
+    }
+}
+```
+
+----
+
+Rečenice se mogu nadovezivati pomoću matematičke operacije "zbrajanja" `+`. Prisjetimo se da na taj način možemo više rečenica ispisati pomoću naredbe `System.out.println()` ili `System.out.print()`, važno je samo da na umu imamo da dodamo razmake kako bi ispis bio dobro formatiran.
+
+Također se valja prisjetiti da svaka riječ/rečenica živi unutar navodnih znakova!
+
+Primjer:
+
+```Java
+public class Klasa {
+
+    public static void main(String[] args) {
+		System.out.print("Danas je suncan dan!" + " " + "No sutra najavljuju kisu.");
+    }
+}
+```
+
+---
+
+Osim slova i brojeva, u rečenicama se mogu naći i posebni znakovi poput `\t` i `\n` koji kompajleru govore što napraviti. Tako `\t` govori kompajleru da se pomakne za 8 mjesta, a `\n` da idu u novi red.
+
+Primjer:
+
+```Java
+public class Klasa {
+
+    public static void main(String[] args) {
+		System.out.print("Danas je suncan dan!\n");
+		System.out.println("\tDanas je suncan dan!\n");
+    }
+}
+```
+
+Ispis:
+
+```
+Danas je suncan dan!
+	Danas je suncan dan!
+```
+
+Kod posebnih znakova je ključn naopaka kosa crta na početku `\`, ona kompajleru govori da je riječ o posebnom znaku, a zadatak posebnog znaka je određen slovom nakon `\`.
+
+---
+
+Osim za naznačavanje posebnih znakova, crta `\` kompajleru može reći i da nešto ne radi kako on želi već kako mi želimo. Primjer su navodni znakovi kojima omeđujemo riječi/rečenice. Kad te navodne znakove želimo koristiti unutar riječi/rečenica potrebno je ispred njih staviti `\`:
+
+```Java
+public class Klasa {
+
+    public static void main(String[] args) {
+		System.out.println("Marko \"dobro\" pleše");
+    }
+}
+```
+
+Ispis:
+
+```
+Marko "dobro" pleše
+```

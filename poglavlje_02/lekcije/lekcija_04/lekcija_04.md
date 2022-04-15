@@ -1,0 +1,1 @@
+Ispitivanje uvjeta (grananja)
