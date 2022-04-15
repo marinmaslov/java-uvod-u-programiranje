@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "poglavlje_02/lekcije/lekcija_01/lekcija_01.md",
+            "file": "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "poglavlje_02/lekcije/lekcija_01/lekcija_01.md",
+                "file": "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -89,8 +89,8 @@
   },
   "active": "efbfbafde0f08c7d",
   "lastOpenFiles": [
-    "poglavlje_02/lekcije/lekcija_01/lekcija_01.md",
     "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
+    "poglavlje_02/lekcije/lekcija_01/lekcija_01.md",
     "poglavlje_02/README.md",
     "().md",
     "poglavlje_02/lekcije/lekcija_02/img/img_001_data_types.png",
