@@ -1,7 +1,7 @@
 #### Poglavlje 2: Uvod u programiranje 💻
 
-## Lekcija 3
-Stringovi 🕹️
+## Lekcija 8
+# Pregled naučenog 🕹️
 ---
 #### Sadržaj
 1.1. [Gdje pisati kod koji želimo izvršiti?](#11-gdje-pisati-kod-koji-želimo-izvršiti)
@@ -16,5 +16,4 @@ Sada kad smo naučili kako pisati u konzolu te što su varijable i kako ih mijen
 
 U nastavku ćemo proći par osnova o klasama i objektima, no nećemo previše duboko ulaziti u njih jer ćemo za nekoliko poglavlja tek objašnjavati koncepte objekto orijentiranih jezika.
 
-## 4.1 Uvoz klase Scanner
-Čitanje s konzole se u Javi odvija preko klase Scanner. Kako bimo koristili Scanner moramo ga uvesti u naš projek
+## 4.1 Uvoz

@@ -248,4 +248,10 @@ error: cannot assign a value to final variable GODINA_2000
 ```
 
 ## 2.8 Zadaci za vježbu
+### Zadatak 1:
+Napišite program koji na zaslon
+### Zadatak 1:
+Napišite program koji na zaslon
+### Zadatak 1:
+Napišite program koji na zaslon
 ## 2.9 Sažetak
