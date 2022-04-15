@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "535c821bbb29f551",
+    "type": "split",
+    "children": [
+      {
+        "id": "efbfbafde0f08c7d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4be520ac4b697333",
+    "type": "split",
+    "children": [
+      {
+        "id": "0b40a7fac7f2ece2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "19201656737d963f",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "1e331e1d0fc90ee2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "166e118738c51c5b",
+    "type": "split",
+    "children": [
+      {
+        "id": "bda1e4dbdc942371",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6273b284fdfbda04",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "efbfbafde0f08c7d",
+  "lastOpenFiles": [
+    "poglavlje_02/lekcije/lekcija_02/lekcija_02.md",
+    "poglavlje_02/README.md",
+    "().md",
+    "poglavlje_02/lekcije/lekcija_01/lekcija_01.md",
+    "poglavlje_02/img/img_001_data_types.png",
+    "README.md",
+    "poglavlje-02/Untitled.md"
+  ]
+}
